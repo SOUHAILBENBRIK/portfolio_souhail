@@ -82,8 +82,8 @@
         </span>
         <br />
         <span name="attribution 1" class="text-xs text-gray-400"
-          >Made with
-          <a href="https://github.com/ralodev/vuefolio" target="_blank">Vuefolio</a></span
+          >Made By
+          <a href="https://github.com/SOUHAILBENBRIK/portfolio_souhail" target="_blank">Souhail Ben Brik</a></span
         >
       </div>
       <div class="grid grid-cols-2 gap-x-3 gap-y-8 text-sm sm:grid-cols-4 lg:w-2/3">
@@ -104,45 +104,22 @@
             </li>
           </ul>
         </div>
-        <div class="space-y-3">
-          <h2 class="uppercase">Navigation 2</h2>
-          <ul class="space-y-1">
-            <li>
-              <a href="#" target="_blank">Link 1</a>
-            </li>
-            <li>
-              <a href="#" target="_blank">Link 2</a>
-            </li>
-            <li>
-              <a href="#" target="_blank">Link 3</a>
-            </li>
-          </ul>
-        </div>
-        <div class="space-y-3">
-          <h2 class="uppercase">Navigation 3</h2>
-          <ul class="space-y-1">
-            <li>
-              <a href="#" target="_blank">Link 1</a>
-            </li>
-            <li>
-              <a href="#" target="_blank">Link 2</a>
-            </li>
-            <li>
-              <a href="#" target="_blank">Link 3</a>
-            </li>
-          </ul>
-        </div>
+       
+       
         <div class="space-y-3">
           <h2 class="uppercase">Social media</h2>
           <div class="flex justify-start space-x-3">
-            <a rel="noopener noreferrer" href="#" title="Facebook" class="flex items-center p-1">
+            <a rel="noopener noreferrer" href="https://www.facebook.com/souhail.benbrik.7" target="_blank" title="Facebook" class="flex items-center p-1">
               <FacebookIcon class="h-5 w-5" />
             </a>
-            <a rel="noopener noreferrer" href="#" title="Twitter" class="flex items-center p-1">
-              <TwitterIcon class="h-5 w-5" />
+            <a rel="noopener noreferrer" href="https://www.youtube.com/@codegleam" target="_blank" title="Youtube" class="flex items-center p-1">
+              <YoutubeIcon class="h-5 w-5" />
             </a>
-            <a rel="noopener noreferrer" href="#" title="Instagram" class="flex items-center p-1">
-              <InstagramIcon class="h-5 w-5" />
+            <a rel="noopener noreferrer" href="https://github.com/SOUHAILBENBRIK" target="_blank" title="Github" class="flex items-center p-1">
+              <GithubIcon class="h-5 w-5" />
+            </a>
+            <a rel="noopener noreferrer" href="https://www.linkedin.com/in/souhail-ben-brik/" target="_blank" title="Linkedin" class="flex items-center p-1">
+              <LinkedinIcon class="h-5 w-5" />
             </a>
           </div>
         </div>
@@ -153,7 +130,8 @@
 </template>
 
 <script setup lang="ts">
-import InstagramIcon from './icons/InstagramIcon.vue'
 import FacebookIcon from './icons/FacebookIcon.vue'
-import TwitterIcon from './icons/TwitterIcon.vue'
+import GithubIcon from './icons/GithubIcon.vue';
+import LinkedinIcon from './icons/LinkedinIcon.vue';
+import YoutubeIcon from './icons/YoutubeIcon.vue';
 </script>
